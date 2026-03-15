@@ -90,3 +90,5 @@ const sendMoney = async (req, res) => {
 
     }
 }
+
+module.exports = { getStatement, sendMoney }
