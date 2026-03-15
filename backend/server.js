@@ -5,7 +5,8 @@ const cors = require(cors());
 
 
 const dbHealthCheck = require("./src/utils/dbHealthCheck")
-
+const authRoute = require("./src/routes/authRoutes");
+const accountRoute = require("./src/routes/accountRoutes")
 const PORT = 5565;
 const app = express();
 app.use(express.json());
